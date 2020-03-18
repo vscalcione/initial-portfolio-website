@@ -112,9 +112,9 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
+    background: url(./assets/about.jpg) no-repeat 40% 0;
     background-size: 200%;
-    background-position: 40% 0;
+    /*background-position: 40% 0;*/
 }
 
 .skill .bars p, .site-content .skill .bars span{
