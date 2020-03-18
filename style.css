@@ -91,8 +91,8 @@ body{
 /* site-main */
 
 .site-banner .banner-area{
-    /*background: url(./assets/Banner_image.jpg) no-repeat;*/
-    background: url("https://lh3.googleusercontent.com/proxy/zos50GSfxxrX6oMgA5q7RvRbvq5qAA6ZwRdOQAjx98tH3AqLDUWMmzHRgqyGRedkcdFh0apRuT3to4Eki8QNkYNZ5chznJOQE9zw6XV7ODroZrYVBypgDU299207efBzH0sVIQ") no-repeat;
+    background: url(./assets/coding.jpeg) no-repeat;
+    /*background: url("https://lh3.googleusercontent.com/proxy/zos50GSfxxrX6oMgA5q7RvRbvq5qAA6ZwRdOQAjx98tH3AqLDUWMmzHRgqyGRedkcdFh0apRuT3to4Eki8QNkYNZ5chznJOQE9zw6XV7ODroZrYVBypgDU299207efBzH0sVIQ") no-repeat;*/
     background-size: cover;
     width: 100%;
     height: 100vh;
