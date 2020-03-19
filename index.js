@@ -1,13 +1,28 @@
+let scrollOnTop = function(){
+    $(window).scroll(function(){
+        $(this).scrollTop() > 250 ? $('#backToTop').fadeIn() : $('#backToTop').fadeOut();
+    });
+    $('#back_to_top').click(function(){
+       $('html, body').animate({
+           scrollTop: 0
+       }, 800);
+    });
+};
+
+$(document).ready(function(){
+   scrollOnTop();
+});
+
 $(document).ready(function(e){
-    $win = $(window);
-    $navbar = $('#header');
-    $toggle = $('.toggle-button');
-    var width = $navbar.width();
-    toggle_onclick($win, $navbar, width);
+    let $win = $(window);
+    let $navbar = $('#header');
+    let $toggle = $('.toggle-button');
+    let width = $navbar.width();
+    toggleOnClick($win, $navbar, width);
 
     // resize event
     $win.resize(function(){
-        toggle_onclick($win, $navbar, width);
+        toggleOnClick($win, $navbar, width);
     });
 
     $toggle.click(function(e){
@@ -16,7 +31,7 @@ $(document).ready(function(e){
 
 });
 
-function toggle_onclick($win, $navbar, width){
+function toggleOnClick($win, $navbar, width){
     if($win.width() <= 768){
         $navbar.css({left: `-${width}px`});
     }else{
@@ -24,7 +39,7 @@ function toggle_onclick($win, $navbar, width){
     }
 }
 
-var typed = new Typed('#typed' , {
+let typedPhrase = new Typed('#typed' , {
     strings: [
         'Junior Fullstack Developer (Backend - Frontend)',
         'Informatic Lover'
@@ -34,7 +49,7 @@ var typed = new Typed('#typed' , {
     loop: true
 });
 
-var typed_2 = new Typed('#typed_2' , {
+let typed2ndPhrase = new Typed('#typed_2' , {
     strings: [
         'Junior Fullstack Developer (Backend - Frontend)',
         'Informatic Lover'
