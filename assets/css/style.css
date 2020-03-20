@@ -88,7 +88,7 @@
 /* site-main */
 
 .site-banner .banner-area{
-    background: url(./assets/coding-1.jpg) no-repeat;
+    background: url(../coding-1.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -113,7 +113,7 @@
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    background: url(./assets/profile.jpg) no-repeat 45% -35px;
+    background: url(../profile.jpg) no-repeat 45% -35px;
     background-size: 200%;
     /*background-position: 40% 0;*/
 }
