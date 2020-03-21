@@ -1,18 +1,3 @@
-let scrollOnTop = function(){
-    $(window).scroll(function(){
-        $(this).scrollTop() > 250 ? $('#backToTop').fadeIn() : $('#backToTop').fadeOut();
-    });
-    $('#back_to_top').click(function(){
-       $('html, body').animate({
-           scrollTop: 0
-       }, 800);
-    });
-};
-
-$(document).ready(function(){
-   scrollOnTop();
-});
-
 $(document).ready(function(e){
     let $win = $(window);
     let $navbar = $('#header');
