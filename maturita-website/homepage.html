@@ -23,6 +23,8 @@
                 cursor: pointer;
                 width: 50px;
             }
+
+            .button{display: inline-block; background: #fff; color:#000;padding: 15px 30px; border-radius:3px; text-decoration: none;}
         </style>
     </head>
     <body>
@@ -42,10 +44,10 @@
                             <a href="#inglese" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-spell-check"></i> Inglese</a>
                             <a href="#informatica" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-laptop-code"></i> Informatica</a>
                             <a href="#sistemi_e_reti" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-network-wired"></i> Sistemi e Reti</a>
-                            <a href="#tp" class="nav-item nav-link text-white-50 font-os font-size-16 active">TP</a>
-                            <a href="#matematica" class="nav-item nav-link text-white-50 font-os font-size-16 active">Matematica</a>
-                            <a href="#gestione_del_progetto" class="nav-item nav-link text-white-50 font-os font-size-16 active">Gestione del progetto</a>
-                            <a href="#contattaci" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contattaci</a>
+                            <a href="#tp" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-server"></i> TP</a>
+                            <a href="#matematica" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-calculator"></i> Matematica</a>
+                            <a href="#gestione_del_progetto" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-project-diagram"></i> Gestione del progetto</a>
+                            <a href="#contattaci" class="nav-item nav-link text-white-50 font-os font-size-16 active"><i class="fas fa-at"></i> Contattaci</a>
                         </div>
                     </nav>
                 </div>
@@ -72,12 +74,86 @@
                                 <div class="author-img"></div>
                                 <h1 class="text-white font-staat font-size-40 text-uppercase py-3">Scalcione Vincenzo</h1>
                                 <h5 class="text-white font-ram font-size-27">i'm <span id="typed"></span></h5>
-                                <button value="b1"></button>
-                                <button value="b2"></button>
+                                <div class="container" style="padding-top: 50px;: ">
+                                    <a href="accessoUtente.html" class="button" style="border-radius: 30px;"><i class="fas fa-sign-in-alt"></i> Accedi</a>
+                                    <a href="accessoUtente.html" class="button" style="border-radius: 30px;"><i class="fas fa-sign-in-alt"></i> Registrati</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                    <!-- #site-banner area -->
+
+
+
+                    <section class="news py-5 px-4 bg-light" id="news">
+                        <div class="py-3">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Read</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Introduzione</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 my-3">
+                                <div class="card border-0">
+                                    <img src="../assets/images/Immagini/web_development.jpg"
+                                         class="card-img-top">
+                                    <!--                                    <img src="https://media0.giphy.com/media/iIqmM5tTjmpOB9mpbn/giphy.gif" alt="news1" class="card-img-top">-->
+                                    <!--                                    <img src="./assets/cyber_security.jpg" alt="news1" class="card-img-top">-->
+                                    <div class="card-body">
+                                        <p class="font-ram font-size-16 text-black-50">in <b class="text-uppercase text-dark">Web Development</b>
+                                        </p>
+                                        <h5 class="card-title font-ram">Introduzione</h5>
+                                        <p class="cart-text text-black-50">
+                                            Questo sito è stato sviluppato secondo istruzioni date da vari video-corsi con vari linguaggi di programmazione orientati
+                                            allo sviluppo Web come Javascript, HTML, CSS, PHP
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-3">
+                                <div class="card border-0">
+                                    <!--                                    <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/source.gif" alt="" class="card-img-top" />-->
+                                    <img src="../assets/images/Immagini/coding1.jpg" alt="news1" class="card-img-top">
+                                    <div class="card-body">
+                                        <p class="font-ram font-size-16 text-black-50">in <b class="text-uppercase text-dark">Development</b>
+                                        </p>
+                                        <h5 class="card-title font-ram">Utilizzo Applicativi</h5>
+                                        <p class="cart-text text-black-50">
+                                            Per la realizazzione di questo sito web sono stati utilizzati un IDE di sviluppo come Webstorm e XAMPP
+                                            (simulazione server Apache e gestore database MySQL)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-3">
+                                <div class="card border-0">
+                                    <img src="../assets/images/Immagini/wallpaper.jpg"
+                                         class="card-img-top">
+                                    <div class="card-body">
+                                        <p class="font-ram font-size-16 text-black-50">in <b class="text-uppercase text-dark">Cyber-Security</b>
+                                        </p>
+                                        <h5 class="card-title font-ram">Hacking & Cyber-Security</h5>
+                                        <p class="cart-text text-black-50">
+                                            Questo progetto nasce per definire al meglio l'impatto di codifica server-side attraverso le norme di
+                                            CyberSecurity, in modo da preservare l'integrità dei dati presenti, attraverso tecniche di prevenzione
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </section>
-                    <!-- #site-banner area -->
+
+                    <section class="banner clearfix">
+                        <div class="banner__image" style="background-image:url('../assets/images/Immagini/wallpaper.jpg');"></div>
+                        <div class="banner__copy">
+                            <div class="banner__copy__text">
+                                <font face="segoe UI" size="3"><h3><strong>Sicurezza Informatica</strong></h3></font>
+                                <h4>Perchè crittografare i nostri dati?</h4>
+                                <p>Con l'evoluzione delle tecnologie di comunicazione, è sempre più semplice che le informazioni che vagano in Internet possano essere viste e manipolate da terze parti. Proprio per evitare tutto ciò, si ricorre alle numerose tecniche di oscurazione dei dati, anche chiamata <font size="3"><strong>Crittografia dei dati</strong></font>, in modo da preservare la loro integrità</p>
+                                <br>
+                            </div>
+                        </div>
+                    </section>
 
                     <!-- about me area -->
                     <section class="about px-4 my-5" id="about_me">
@@ -419,7 +495,7 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="row bg-light py-5 bgcolor-black">
+                            <div class="row bg-light py-5 bgcolor-black-inverse" style="margin-left: -16px;">
                                 <div class="col-sm-4 my-5 text-center">
                                     <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Scalcione Vincenzo. All rights
                                         reserved</h6>

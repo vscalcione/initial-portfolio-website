@@ -42,6 +42,11 @@
     /*background-color: var(--color-blue);*/
 }
 
+.bgcolor-black-inverse{
+    background: linear-gradient(to left, #00AAFF, #00FF6C);
+    /*background-color: var(--color-blue);*/
+}
+
 /* #global classes */
 
 #header{
