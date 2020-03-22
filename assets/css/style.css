@@ -136,6 +136,71 @@
     padding: 1.5rem 1rem;
 }
 
+#back_to_top {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.button{
+    display: inline-block;
+    background: #fff;
+    color:#000;
+    padding: 15px 30px;
+    border-radius:3px;
+    text-decoration: none;
+}
+
+/*-----------------------------
+Banner
+-----------------------------*/
+.banner{background: #fff; height:50%;margin-top:30px;}
+.banner__image{
+    width:30%;
+    float:left;
+    height:100%;
+    background-image: url("https://source.unsplash.com/category/nature/400x400");
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: center center;
+}
+.banner__copy{width:70%; float:left;height:100%;display: table;}
+.banner__copy__text{display: table-cell; vertical-align: middle;padding:10px 50px;}
+
+.banner__copy__text h3{font-size: 36px;margin-bottom:0;}
+.banner__copy__text h4{font-size: 22px;margin: 5px 0}
+
+.bgcolor-blue-violet{
+    background: linear-gradient(to right, blue, blueviolet);
+}
+
+
+/* clearfix */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 @media screen and (min-width: 768px){
     .toggle-button{
         display: none;
